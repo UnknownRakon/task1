@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<style>
+    .arrays::-webkit-scrollbar {
+        display: none;
+    }
+</style>
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">ExtraTask 1 </h3>
+            </div>
+        </header>
+
+        <main class="px-3 py-5 d-flex flex-column align-items-center">
+            <h4>Отношение задано матрицей. Исследовать отношение на симметрию,
+                антисимметрию, асимметрию, рефлексивность, антирефлексивность. Найти
+                транзитивное замыкание отношения.
+            </h4>
+            <div class="d-flex w-75 justify-content-center my-2">
+                <button id="generate" type="button" class="btn btn-light ">Сгенирировать матрицу</button>
+            </div>
+            <div class="d-flex w-75 justify-content-between my-2">
+                <button id="symmetry" type="button" class="btn btn-light ">Исследовать на симметрию</button>
+                <button id="antisymmetry" type="button" class="btn btn-light">Исследовать на антисимметрию</button>
+                <button id="asymmetry" type="button" class="btn btn-light">Исследовать на асимметрию</button>
+            </div>
+            <div class="d-flex w-75 justify-content-between my-2">
+                <button id="reflexivity" type="button" class="btn btn-light">Исследовать на рефлексивность</button>
+                <button id="antireflexivity" type="button" class="btn btn-light">Исследовать на
+                    антирефлексивность</button>
+                <button id="closure" type="button" class="btn btn-light">Найти транзитивное замыкание</button>
+            </div>
+        </main>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.3/underscore-umd-min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
